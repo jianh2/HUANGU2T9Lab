@@ -7,7 +7,16 @@ public class Runner {
 
         System.out.println("Your lucky number is " + Math.random());
         System.out.println(Math.sqrt(Math.random()));
-        double randomNum = Math.random() * 75 + 25;
+        System.out.println(Math.sin(90.5));
+        String state = "Mississippi is a southern state";
+        int a = state.substring(state.indexOf("p")).indexOf(state.substring(state.indexOf("i"),3));
+        System.out.print(a);
+        double randomNum2 = Math.random() * 75 + 25;
+        for (int i = 0; i < 100; i++) {
+            int randomNum = (int)(Math.random()*36)+50;
+
+        }
+
     }
 
     public static void test2(String args[]) {
